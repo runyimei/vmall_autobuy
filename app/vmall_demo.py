@@ -13,8 +13,8 @@ driver.get("www.baidu.com")
 
 #  登录
 click('请登录')
-write('meihao2@huawei.com', into='手机号')
-write('meihaode132332', into='密码')
+write('*****', into='手机号')
+write('*****', into='密码')
 click('登录')
 
 go_to('https://www.vmall.com/product/10086368169358.html')
